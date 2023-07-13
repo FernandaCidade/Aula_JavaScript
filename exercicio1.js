@@ -15,5 +15,5 @@ if(salario < 1000){
 
     }else{
        console.log("O funcionário não atende os requisitos do aumento de salário")
-       console.log(nome+" " + cargo +" " + salario)
+       console.log(nome+" " + cargo +" " + salario.toFixed(2))
     }
