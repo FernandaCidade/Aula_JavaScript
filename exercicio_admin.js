@@ -9,9 +9,9 @@ let username = prompt("Digite o usuário: ")
 
 let senha = prompt("Digite a senha: ")
 
-if (username == "admin" && senha == 1234){
-    console.log(" Foi bixa")
+if (username == "admin" && senha == "senha1234"){
+    console.log("Usuário autorizado")
 } else{
-    console.log("num foi")
-    console.log (username, senha)
+    console.log("Usuário não autorizado")
+   
 }
